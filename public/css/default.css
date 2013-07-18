@@ -1,18 +1,115 @@
 body {
-    background: silver;
+    background: lightslategray;
 }
 
-#header {
-    padding: 20px;
-    background: gold;
+#wraper {
+  margin: 0 auto;
+  width: 940px;
+}
+
+#headear .logo {
+    background: lightslategray;
+}
+
+#header .logo a{
+    color: #fff;
+}
+
+#header a {
+    text-decoration: none;
+    margin-left: 50px;
+    
+}
+
+#header .nav {
+    background: #fff;
+    height: 30px;
+    padding-top: 20px;
+    margin-top: -20px;
+}
+
+#header .nav a {
+    color: #000;
 }
 
 #content {
+    background: lightslategray;
+}
+
+#content h1, h2, h3, h4{
+    text-align: center;
+}
+
+#content .group{
     background: #fff;
-    padding: 20px;
+    padding-bottom: 5px; 
+}
+
+#content .advices{
+    height: 150px;
+    margin-top: 20px;
+    background: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.advices a{
+    text-decoration: none;
+    color: #000;
+}
+
+.advices .love{
+    float: left;
+    width: 250px;
+    height: 150px;
+}
+
+.advices .love img{
+    float: left;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+
+.advices .plan{
+    float: left;
+    width: 250px;
+    margin-left: 60px;
+    height: 150px;
+}
+
+.advices .plan img{
+    float: left;
+    margin-top: -30px;
+    padding-left: 10px;
+}
+
+.advices .schedule{
+    float: right;
+    width: 250px;
+    height: 150px;
+}
+
+.advices .schedule img{
+    float: left;
+    margin-top: -30px;
+    padding-left: 10px;
 }
 
 #footer {
-    background: green;
+    background: #fff;
     padding: 20px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+#footer a{
+    float: left;
+    text-decoration: none;
+    color: #000;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+#footer a:hover{
+    color: #f00;
 }
