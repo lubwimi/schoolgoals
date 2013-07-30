@@ -4,7 +4,6 @@ class Login_Model extends Model {
     
     public function __construct() {
         parent::__construct();
-        //echo md5('jesse');
     }
     
     public function run() {
@@ -24,6 +23,7 @@ class Login_Model extends Model {
             Session::init();
             Session::set('loggedIn', true);
             header('location: ../dashboard');
+            
         } else {
             header('location: ../login');
         }
