@@ -1,5 +1,5 @@
 <div class='group'>
-    <img src="public/images/logo2 copy.jpg" />
+    <a href='<?php echo URL; ?>login'><img src="public/images/logo2 copy.jpg" /></a>
 </div>
 
 <div class="advices">
