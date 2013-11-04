@@ -1,5 +1,7 @@
 <div class='group'>
-    <a href='<?php echo URL; ?>login'><img src="public/images/logo2 copy.jpg" /></a>
+    <a href='<?php echo URL; ?>login'>
+    <img src="public/images/logo2 copy.jpg" />
+    </a>
 </div>
 
 <div class="advices">
