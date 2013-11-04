@@ -24,11 +24,11 @@
            
            <div class="logo">
                <?php if(Session::get('loggedIn') == false):?>
-                  <a href="<?php echo URL; ?>index"><h1>Lub.com</h1></a>
+                  <a href="<?php echo URL; ?>index"><h1>L.f.</h1></a>
                <?php endif; ?>
                
                <?php if(Session::get('loggedIn') == true):?>
-                  <a href="<?php echo URL; ?>dashboard"><h1>Lub.com</h1></a>
+                  <a href="<?php echo URL; ?>dashboard"><h1>L.f.</h1></a>
                <?php endif; ?>
            </div>
            
