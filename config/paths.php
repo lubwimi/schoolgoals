@@ -1,3 +1,3 @@
 <?php
 
-define('URL', 'http://localhost/schoolgoals/' );
+define('URL', 'http://localhost:8888/schoolgoals/' );

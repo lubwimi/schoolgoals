@@ -1,7 +1,6 @@
 <div class='loggedin'>
     
-    <h4>WELCOME</h4>
-    <!--echo '<h2><span style=\'color:#000\'> '.$firstname.' '.$surname.' </span></h2>--->
+   <?php echo $this->msg; ?>
     <br />
     <h4>Register your course and its goal !</h4>
     

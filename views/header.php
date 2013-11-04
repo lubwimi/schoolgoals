@@ -2,7 +2,7 @@
 <html>
    <head>
       <title>Test</title>
-
+      <!--<meta charset='utf-8'>-->
       <link rel="stylesheet" href="<?php echo URL; ?>public/css/default.css" />
       <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.js"></script>
       <script type="text/javascript" src="<?php echo URL; ?>public/js/custom.js"></script>
@@ -24,11 +24,11 @@
            
            <div class="logo">
                <?php if(Session::get('loggedIn') == false):?>
-                  <a href="<?php echo URL; ?>index"><h1>LUb</h1></a>
+                  <a href="<?php echo URL; ?>index"><h1>Lub.com</h1></a>
                <?php endif; ?>
                
                <?php if(Session::get('loggedIn') == true):?>
-                  <a href="<?php echo URL; ?>dashboard"><h1>LUb</h1></a>
+                  <a href="<?php echo URL; ?>dashboard"><h1>Lub.com</h1></a>
                <?php endif; ?>
            </div>
            
