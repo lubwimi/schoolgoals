@@ -45,6 +45,10 @@ body {
     padding-bottom: 5px; 
 }
 
+#content .group img{
+    padding: 20px 400px; 
+}
+
 #content .advices{
     height: 150px;
     margin-top: 20px;
