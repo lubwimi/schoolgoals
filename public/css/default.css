@@ -32,6 +32,10 @@ body {
     color: #000;
 }
 
+#header h1{
+    padding: 0 440px;
+}
+
 #content {
     background: lightslategray;
 }
@@ -114,11 +118,10 @@ body {
 }
 
 #footer a{
-    float: left;
     text-decoration: none;
     color: #000;
     margin-top: 25px;
-    padding-left: 20px;
+    padding: 0 100px;
 }
 
 #footer a:hover{
