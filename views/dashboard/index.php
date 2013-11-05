@@ -2,7 +2,7 @@
     
    <?php echo $this->msg; ?>
     <br />
-    <h4>Register your course and your goal !</h4>
+    <h4>Register your course grade's goal </h4>
     
     <form id='randomInsert' action='<?php echo URL; ?>dashboard/xhrInsert/' method='post'> <!-- xhrInsert is an ajax thing --->
       <input type='text' name='text' /><br /><br />

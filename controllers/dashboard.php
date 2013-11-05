@@ -12,7 +12,7 @@ class Dashboard extends Controller {
             exit;
        }
        
-       $this->view->msg = 'Welcome <br /> ';//.$_SESSION['user_id'];
+       $this->view->msg = 'Welcome ! <br /> ';//.$_SESSION['user_id'];
        $this->view->js = array('dashboard/js/default.js');
     }
     
