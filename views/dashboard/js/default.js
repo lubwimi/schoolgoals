@@ -17,7 +17,7 @@ $(function() {
         return false; // false because we don't want to show that in url
       });
       
-   }, 'json'); // json means javascript notation
+   }, 'json'); // json means javascript object notation
    
    
    $('#randomInsert').submit(function() {

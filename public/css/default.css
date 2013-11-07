@@ -50,7 +50,8 @@ body {
 }
 
 #content .group img{
-    padding: 0 320px; 
+    padding: 0 320px;
+    width: 300px;
 }
 
 #content .advices{
