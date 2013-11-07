@@ -1,6 +1,6 @@
 <div class='group'>
     <a href='<?php echo URL; ?>login'>
-    <img src="public/images/logo2 copy.jpg" />
+    <img src="public/images/image1.jpg" />
     </a>
 </div>
 
