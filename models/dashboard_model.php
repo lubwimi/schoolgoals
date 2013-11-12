@@ -15,6 +15,15 @@ class Dashboard_Model extends Model {
        echo json_encode($data); 
     }
     
+    function userName() {
+        $sth = $this->db->prepare('SELECT  firstname, surname FROM users');
+        $sth->setFetchMode(PDO::FETCH_ASSOC);
+        $sth->execute();
+        $data = $sth->fetch();
+        
+        return $data;
+    }
+    
     function xhrGetListings() {
        $sth = $this->db->prepare('SELECT * FROM data');
        $sth->setFetchMode(PDO::FETCH_ASSOC);

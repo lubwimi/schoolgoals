@@ -6,6 +6,7 @@ class Dashboard extends Controller {
         parent::__construct();
         Session::init();
         $logged = Session::get('loggedIn');
+        
         if($logged == false) {
             Session::destroy();
             header('location: ../login');
@@ -16,8 +17,8 @@ class Dashboard extends Controller {
        $this->view->js = array('dashboard/js/default.js');
     }
     
-    function index() { 
-       
+    function index() {
+        $this->view->userName = $this->model->userName();
         $this->view->render("dashboard/index");
     }
     

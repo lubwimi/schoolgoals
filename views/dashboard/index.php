@@ -1,6 +1,15 @@
 <div class='loggedin'>
     
-   <?php echo $this->msg; ?>
+   <?php
+      echo $this->msg.' <br />'; 
+      
+      foreach($this->userName as $key => $value) {
+         
+         echo $value.' ';
+      }
+      
+   ?>
+   
    
     <br />
    
