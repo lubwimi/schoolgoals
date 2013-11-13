@@ -4,7 +4,6 @@
       echo $this->msg.' <br />'; 
       
       foreach($this->userName as $key => $value) {
-         
          echo $value.' ';
       }
       
