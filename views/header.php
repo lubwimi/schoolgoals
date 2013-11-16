@@ -35,9 +35,9 @@
            <div class="nav">
                <?php if(Session::get('loggedIn') == false):?>
                   <a href="<?php echo URL; ?>index">Home</a>
+                  <a href="<?php echo URL; ?>about">About</a>
                   <a href="<?php echo URL; ?>help">Contact</a>
                   <a href="<?php echo URL; ?>register">Register</a>
-                  <a href="<?php echo URL; ?>about">About</a>
                <?php endif; ?>
                
                <?php if(Session::get('loggedIn') == true):?>

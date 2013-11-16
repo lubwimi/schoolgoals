@@ -46,7 +46,8 @@ body {
 
 #content .group{
     background: #fff;
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
+    margin-top: 20px;
 }
 
 #content .group img{
